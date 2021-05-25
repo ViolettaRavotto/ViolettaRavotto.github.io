@@ -629,50 +629,25 @@
 
                 <div class="col-md-6 mt-5">
 
-                    <form action="https://formspree.io/f/mqkwekdl" method="POST">
+                      <form action="https://formspree.io/f/mqkwekdl" method="POST">
+
                         <div class="row mb-4">
                             <div class="col-lg-6 mb-4">
                                 <input type="text" class="form-control form-control-lg fs-6 border-0 shadow-sm"
-                                    id="name" placeholder="Your name">
+                                    name="_replyto" id="name" placeholder="Your name">
                             </div>
                             <div class="col-lg-6">
                                 <input type="email" name="_replyto"
-                                    class="form-control form-control-lg fs-6 border-0 shadow-sm" id="mail"
-                                    placeholder="Your Email">
+                                    class="form-control form-control-lg fs-6 border-0 shadow-sm" name="_adress"
+                                    id="mail" placeholder="Your Email">
                             </div>
                         </div>
+
                         <div class="row">
-
-                            <div class="col-lg-6 mb-4">
-                                <select class="form-select form-control-lg fs-6 border-0 shadow-sm">
-                                    <option selected>I am/
-                                        I represent</option>
-                                    <option value="1">Freelancer</option>
-                                    <option value="2">Artist</option>
-                                    <option value="3">Enterprise</option>
-                                    <option value="4">Association</option>
-                                    <option value="5">Shop</option>
-                                    <option value="6">Human</option>
-                                </select>
+                            <div class="col-lg-12 mb-4">
+                                <textarea class="form-control form-control-lg fs-6 border-0 shadow-sm" name="message"
+                                    id="Textarea" rows="5" placeholder="Please, write here your message"></textarea>
                             </div>
-
-                            <div class="col-lg-6 mb-4">
-                                <select class="form-select form-control-lg fs-6 border-0 shadow-sm"
-                                    aria-label="Default select example">
-                                    <option selected>Subject</option>
-                                    <option value="7">New Website</option>
-                                    <option value="8">Modernize Old Website</option>
-                                    <option value="9">
-                                        Video / Photo Editing</option>
-                                    <option value="10">Others</option>
-                                </select>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12 mb-4">
-                                    <textarea class="form-control form-control-lg fs-6 border-0 shadow-sm" id="Textarea"
-                                        rows="5" placeholder="Please, write here your message"></textarea>
-                                </div>
                                 <div class="row">
                                     <div class="col-lg-12 mb-4">
                                         <button type="submit" class="btn btn-primary px-3">Send Message</button>
