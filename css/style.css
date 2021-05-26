@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*About*/
 #mySoftSkills {
   display: none;
 }
@@ -23,6 +24,7 @@
 #bootstrap {
   color: rgb(167, 6, 241);
 }
+/*Services*/
 .services-container {
   position: relative;
   width: 10000px;
@@ -60,7 +62,6 @@
   top: calc(50% - 75px);
   transition: 0.5s ease-in-out;
 }
-
 .card-content {
   position: absolute;
   right: 0;
@@ -88,7 +89,6 @@
 .portfolio-item:hover {
   height: 420px;
 }
-
 .portfolio-bx img {
   max-width: 100%;
   min-height: 200px;
@@ -109,11 +109,16 @@
   opacity: 1;
   transition-delay: 0.3s;
 }
-
 #testi-img {
   max-height: 100px;
 }
-@media (max-width: 798px) {
+@media (max-width: 600px) {
+  .services-container {
+    max-width: 90%;
+  }
+  .services-container .card {
+    height: 400px;
+  }
 }
 @media (min-width: 992px) {
   #wave {
